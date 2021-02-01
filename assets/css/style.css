@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  overflow-y: hidden;
+}
+img{
+  width: 100%;
+}
+.col-1 {
+  background: white;
+  flex: 1;
+  min-width: 350px;
+  height: 100vh;
+  padding: 30px 10px;
+  margin-left: 40px;
+}
+.col-3 {
+  background: yellow;
+  flex: 2;
+  background: url('../image/banner.png');
+  background-size: 660px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 55px;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  width: 130px;
+}
+.form-container form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+form label {
+  font-weight: normal;
+  color: #909790;
+}
+.form-container form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form-input {
+  height: 35px;
+  margin-top: 7px;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  padding-left: 15px;
+  border-radius: 5px;
+  /* box-shadow: 0.5px .5px .5px .5px #ccc; */
+}
+.form-input:focus {
+  outline: none;
+}
+.btn-input{
+  margin-top: 20px;
+  height: 45px;
+  border: none;
+  border-radius: 7px;
+  background: #288771;
+  color: white;
+  letter-spacing: .5px;
+}
+.lupa-password {
+  font-size: .8rem;
+  text-align: center;
+  color: #288771;
+}
+@media screen and (max-width: 769px){
+
+  .col-1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-self: center;
+    min-width: 0;
+  }
+  .col-3 {
+    display: none;
+  }
+}
