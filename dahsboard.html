@@ -3,16 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
   <title>Document</title>
 </head>
 
 <body>
+  <input type="checkbox" name="" id="sidebar-toggle">
   <div class="sidebar">
     <div class="sidebar-header">
-      <img src="assets/image/LOGO.svg" alt="">
-      <span>Klason</span>
+      <div class="">
+        <img src="assets/image/LOGO.svg" alt="">
+        <span>Klason</span>
+      </div>
+      <label class="ti-menu-alt" for="sidebar-toggle"></label>
     </div>
     <div class="sidebar-menu">
       <ul>
@@ -68,202 +73,204 @@
         </div>
       </div>
     </header>
-    <div class="main-content">
-      <div class="main-col">
-        <table class="table-mapel">
-          <thead>
-            <tr>
-              <th>Senin</th>
-              <th>Selasa</th>
-              <th>Rabu</th>
-              <th>Kamis</th>
-              <th>Jumat</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>IPA</td>
-              <td>Agama</td>
-              <td>Matematika</td>
-              <td>Matematika</td>
-              <td>Olahraga</td>
-            </tr>
-            <tr>
-              <td>IPA</td>
-              <td>Agama</td>
-              <td>Matematika</td>
-              <td>Matematika</td>
-              <td>Olahraga</td>
-            </tr>
-            <tr>
-              <td>IPA</td>
-              <td>Agama</td>
-              <td>Matematika</td>
-              <td>Matematika</td>
-              <td>Olahraga</td>
-            </tr>
-            <tr>
-              <td>IPA</td>
-              <td>Agama</td>
-              <td>Matematika</td>
-              <td>Matematika</td>
-              <td>Olahraga</td>
-            </tr>
-            <tr>
-              <td>IPA</td>
-              <td>Agama</td>
-              <td>Matematika</td>
-              <td>Matematika</td>
-              <td>Olahraga</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="aside-col">
-        <div class="calender" style="height: 196px; border: 1px solid purple">
-          kalender
+    <main>
+      <div class="main-content">
+        <div class="main-col table-mapel-container" id="tableMapel">
+          <table class="table-mapel" >
+            <thead>
+              <tr>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jumat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IPA</td>
+                <td>Agama</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+                <td>Olahraga</td>
+              </tr>
+              <tr>
+                <td>IPA</td>
+                <td>Agama</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+                <td>Olahraga</td>
+              </tr>
+              <tr>
+                <td>IPA</td>
+                <td>Agama</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+                <td>Olahraga</td>
+              </tr>
+              <tr>
+                <td>IPA</td>
+                <td>Agama</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+                <td>Olahraga</td>
+              </tr>
+              <tr>
+                <td>IPA</td>
+                <td>Agama</td>
+                <td>Matematika</td>
+                <td>Matematika</td>
+                <td>Olahraga</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="aside-col calender-col">
+          <div class="calender" style="background: #288771;; height: 220px;" id="calender">
+            <h4 style="color: white;">KALENDER</h4>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="main-content">
-      <div class="main-col recent-info">
-        <div class="akitifitas-baru box">
-          <div class="title-box">
-            <h4>Aktifitas terbaru</h4>
-          </div>
-          <div class="aktifitas-baru-content">
-            <!-- <div class="aktifitas-baru-content-header"> -->
-            <img src="assets/image/Ellipse_green.svg" alt="">
-            <h5 class="aktifitas-baru-title">Matematika</h5>
-            <!-- </div> -->
-            <p class="aktifitas-baru-body">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at amet facilis possimus consequatur quia
-              laborum?
-            </p>
-            <div class="aktifitas-info">
-              <div class="post-by">
-                <img src="assets/image/businessman.png" alt="">
-                <span>Ethan hunt</span>
-              </div>
-              <div class="posted-at">
-                <span>Senin, 9 agustus 2020</span>
-              </div>
-            </div>
-          </div>
-          <div class="aktifitas-baru-content">
-            <img src="assets/image/Ellipse 14.svg" alt="">
-            <h5 class="aktifitas-baru-title">Matematika</h5>
-            <p class="aktifitas-baru-body">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at amet facilis possimus consequatur quia
-              laborum?
-            </p>
-            <div class="aktifitas-info">
-              <div class="post-by">
-                <img src="assets/image/businessman.png" alt="">
-                <span>Ethan hunt</span>
-              </div>
-              <div class="posted-at">
-                <span>Senin, 9 agustus 2020</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="aside-main-col">
-          <div class="absen-user box">
+  
+      <div class="main-content">
+        <div class="main-col recent-info">
+          <div class="akitifitas-baru box">
             <div class="title-box">
-              <h4>Absen</h4>
+              <h4>Aktifitas terbaru</h4>
             </div>
-            <div class="box-body">
-              <div class="absen">
-                <label>Hadir</label>
-                <label class="label active" for="hadir"></label>
-                <input type="radio" name="absen" id="hadir">
+            <div class="aktifitas-baru-content">
+              <!-- <div class="aktifitas-baru-content-header"> -->
+              <img src="assets/image/Ellipse_green.svg" alt="">
+              <h5 class="aktifitas-baru-title">Matematika</h5>
+              <!-- </div> -->
+              <p class="aktifitas-baru-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at amet facilis possimus consequatur quia
+                laborum?
+              </p>
+              <div class="aktifitas-info">
+                <div class="post-by">
+                  <img src="assets/image/businessman.png" alt="">
+                  <span>Ethan hunt</span>
+                </div>
+                <div class="posted-at">
+                  <span>Senin, 9 agustus 2020</span>
+                </div>
               </div>
-              <div class="absen">
-                <label>Izin</label>
-                <label class="label" for="izin"></label>
-                <input type="radio" name="absen" id="izin">
-              </div>
-              <div class="absen">
-                <label>Sakit</label>
-                <label class="label" for="sakit"></label>
-                <input type="radio" name="absen" id="sakit">
-              </div>
-              <div class="absen absen-submit">
-                <form action="">
-                  <div class="choose-file">
-                    <label for="file_absen">Lampirkan surat</label>
-                    <input type="file" id="file_absen" type="hidden">
-                  </div>
-                  <div>
-                    <button class="submit-button"><img src="assets/image/Path 58.svg" alt=""></button>
-                  </div>
-                </form>
+            </div>
+            <div class="aktifitas-baru-content">
+              <img src="assets/image/Ellipse 14.svg" alt="">
+              <h5 class="aktifitas-baru-title">Matematika</h5>
+              <p class="aktifitas-baru-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi at amet facilis possimus consequatur quia
+                laborum?
+              </p>
+              <div class="aktifitas-info">
+                <div class="post-by">
+                  <img src="assets/image/businessman.png" alt="">
+                  <span>Ethan hunt</span>
+                </div>
+                <div class="posted-at">
+                  <span>Senin, 9 agustus 2020</span>
+                </div>
               </div>
             </div>
           </div>
-          <div class="khas-info box">
-            <div class="title-box">
-              <h4>Khas</h4>
+          <div class="aside-main-col absen-khas">
+            <div class="absen-user box">
+              <div class="title-box">
+                <h4>Absen</h4>
+              </div>
+              <div class="box-body">
+                <div class="absen">
+                  <label>Hadir</label>
+                  <label class="label active" for="hadir"></label>
+                  <input type="radio" name="absen" id="hadir">
+                </div>
+                <div class="absen">
+                  <label>Izin</label>
+                  <label class="label" for="izin"></label>
+                  <input type="radio" name="absen" id="izin">
+                </div>
+                <div class="absen">
+                  <label>Sakit</label>
+                  <label class="label" for="sakit"></label>
+                  <input type="radio" name="absen" id="sakit">
+                </div>
+                <div class="absen absen-submit">
+                  <form action="">
+                    <div class="choose-file">
+                      <label for="file_absen">Lampirkan surat</label>
+                      <input type="file" id="file_absen" type="hidden">
+                    </div>
+                    <div>
+                      <button class="submit-button"><img src="assets/image/Path 58.svg" alt=""></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="box-body">
-              <span>500.000,00</span>
+            <div class="khas-info box">
+              <div class="title-box">
+                <h4>Khas</h4>
+              </div>
+              <div class="box-body">
+                <span>500.000,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside-col">
+          <div class="recent-tugas-list">
+            <div class="recent-tugas-header">
+              <div class="date-info">
+                <h5>Selasa</h5>
+                <h3>10</h3>
+              </div>
+              <div class="jumlah-recent-tugas">
+                <h4 class="title-box">Tugas terbaru</h4>
+                <small>3 Tugas</small>
+              </div>
+            </div>
+            <div class="recent-tugas box">
+              <div class="icon-tugas">
+                <img src="assets/image/book.svg" alt="">
+              </div>
+              <div class="tugas-info">
+                <h5>Matematika - Paket halaman 1</h5>
+                <small>19 december 2020</small>
+              </div>
+            </div>
+            <div class="recent-tugas box">
+              <div class="icon-tugas">
+                <img src="assets/image/book.svg" alt="">
+              </div>
+              <div class="tugas-info">
+                <h5>Matematika - Paket halaman 1</h5>
+                <small>19 december 2020</small>
+              </div>
+            </div>
+            <div class="recent-tugas box">
+              <div class="icon-tugas">
+                <img src="assets/image/book.svg" alt="">
+              </div>
+              <div class="tugas-info">
+                <h5>Matematika - Paket halaman 1</h5>
+                <small>19 december 2020</small>
+              </div>
+            </div>
+            <div class="recent-tugas box">
+              <div class="icon-tugas">
+                <img src="assets/image/book.svg" alt="">
+              </div>
+              <div class="tugas-info">
+                <h5>Matematika - Paket halaman 1</h5>
+                <small>19 december 2020</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="aside-col">
-        <div class="recent-tugas-list">
-          <div class="recent-tugas-header">
-            <div class="date-info">
-              <h5>Selasa</h5>
-              <h3>10</h3>
-            </div>
-            <div class="jumlah-recent-tugas">
-              <h4 class="title-box">Tugas terbaru</h4>
-              <small>3 Tugas</small>
-            </div>
-          </div>
-          <div class="recent-tugas box">
-            <div class="icon-tugas">
-              <img src="assets/image/book.svg" alt="">
-            </div>
-            <div class="tugas-info">
-              <h5>Matematika - Paket halaman 1</h5>
-              <small>19 december 2020</small>
-            </div>
-          </div>
-          <div class="recent-tugas box">
-            <div class="icon-tugas">
-              <img src="assets/image/book.svg" alt="">
-            </div>
-            <div class="tugas-info">
-              <h5>Matematika - Paket halaman 1</h5>
-              <small>19 december 2020</small>
-            </div>
-          </div>
-          <div class="recent-tugas box">
-            <div class="icon-tugas">
-              <img src="assets/image/book.svg" alt="">
-            </div>
-            <div class="tugas-info">
-              <h5>Matematika - Paket halaman 1</h5>
-              <small>19 december 2020</small>
-            </div>
-          </div>
-          <div class="recent-tugas box">
-            <div class="icon-tugas">
-              <img src="assets/image/book.svg" alt="">
-            </div>
-            <div class="tugas-info">
-              <h5>Matematika - Paket halaman 1</h5>
-              <small>19 december 2020</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </main>
   </div>
 </body>
 
